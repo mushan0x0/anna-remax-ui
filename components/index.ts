@@ -66,6 +66,8 @@ export { default as ProgressBar } from './progress-bar';
 
 export { default as Tag } from './tag';
 
+export { default as TimeLine } from './time-line';
+
 // 反馈
 
 export { default as ActionSheet } from './action-sheet';

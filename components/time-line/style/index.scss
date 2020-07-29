@@ -1,0 +1,50 @@
+@import '../../style/theme/index';
+
+$tag-prefix-cls: #{$anna-prefix}-time_line;
+
+.#{$tag-prefix-cls} {
+  &-item {
+    display: flex;
+    align-items: stretch;
+    font-size: $time-line-font-size;
+    &-date {
+      width: 130px;
+      color: $font-color-3;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 40px 0;
+      &-label, &-time {
+        font-size: 20px;
+        color: $time-line-label-color;
+      }
+      &-label {
+        margin-bottom: 15px;
+      }
+      &-time {
+        margin-top: 20px;
+      }
+    }
+    &-children {
+      padding: 40px;
+      flex: 1;
+      color:$font-color-2;
+      border-left: 1px solid $time-line-dot-color;
+      display: flex;
+      align-items: center;
+      position: relative;
+      &:before {
+        display: block;
+        width: 10px;
+        height: 10px;
+        background-color: $time-line-dot-color;
+        border-radius: 50%;
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: -1px;
+        transform: translateX(-61%) translateY(-50%);
+      }
+    }
+  }
+}

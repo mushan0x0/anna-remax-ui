@@ -31,6 +31,7 @@ $dark-1: $dark-base; // #000
 $dark-2: rgba(51, 51, 51, 1); // #333
 $dark-3: rgba(102, 102, 102, 1); // #666
 $dark-4: rgba(153, 153, 153, 1); // #999
+$gray-6: rgba(181, 181, 181, 1); // #BEBEBE
 
 $red-base: rgba(255, 77, 79, 1); // #FF4D4F
 
@@ -60,6 +61,11 @@ $btn-default-bg: $gray-1;
 
 // skeleton
 $skeleton-gradient-bg: $gray-5;
+
+// time-line
+$time-line-dot-color: $gray-5;
+$time-line-label-color: $gray-6;
+$time-line-font-size: 28px;
 
 // active-sheet
 
