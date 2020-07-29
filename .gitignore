@@ -7,5 +7,6 @@ dist/
 package-lock.json
 yarn.lock
 .umi/
+.idea/
 docs-source/
 report.html
